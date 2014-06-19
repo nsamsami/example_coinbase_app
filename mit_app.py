@@ -8,6 +8,8 @@ import hmac
 import urllib2
 import time
 
+# Basic Script to generate a Coinbase payment button
+# For more information on Coinbase's merchant services, see their homepage here: https://coinbase.com/merchants
 
 coinbase_keys = {
     'secret_key': os.environ['API_KEY'],
